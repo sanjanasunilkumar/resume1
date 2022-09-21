@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color:rgb(146, 162, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+    margin-top: 50px;
+}
+
+
+/* .profiletext{
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* padding-bottom: 20px; */
+    
+/* }  */
+
+.container .left-side{
+    position: relative;
+    background:hsl(261deg 25% 41%);
+    padding: 40px;
+    margin-left: -12px;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+}
+.container .right-side{
+    position: relative;
+    padding: 40px;
+    margin-left: -12px;
+
+}
+h1{
+    color:black;
+    font-weight: 20px;
+    font-size: 26px;
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    color:black;
+    font-size: 22px;
+    font-weight: 0px;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+}
+.contactinfo{
+    padding-top: 40px;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+
+}
+.contactinfo ul{
+    position: relative;
+    color:#fff;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #003147;
+}
+.contactinfo ul li .span{
+    color: #fff;
+    font-weight: 300px;
+}
+.contactinfo education li{
+    margin-bottom: 15px;
+}
+.contactinfo.education h5{
+    color: #2a2829;
+    font-weight: 500px;
+}
+.interest ul{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+
+}
+.interest ul li{
+list-style: none;
+color:#333;
+font-weight: 500px;
+margin: 10px 0;
+}
+.interest ul li{
+color: #003147;
+}
+.add-on h5{
+    color: #2a2829;
+    font-weight: 500px;
+}
+
+@media (max-width: 400px)
+{
+    *{
+       font-size: small;
+    }
+    .container{
+        margin-top: 0px;
+    }
+    .container .left-side{
+        background:hsl(261deg 25% 41%);
+        
+        margin-left: 105px;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+    }
+    .container .right-side{
+        padding: 40px;
+        margin-left: -12px;
+        margin-top: 0px;
+    
+    }
+    h1{
+        color:black;
+        font-weight: 20px;
+        font-size: 26px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    h2{
+        color:black;
+        font-size: 22px;
+        font-weight: 0px;
+        font-style: normal;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .contactinfo{
+        margin-left: 0%;
+        font-size: small;
+        padding-top: 80px;
+    }
+    .title{
+        text-transform: uppercase;
+         font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 2px;
+        margin-left: 0px;
+    
+    }
+    .contactinfo ul{
+        
+        color:#fff;
+        margin-left: 18px;
+    }
+    .contactinfo ul li{
+       
+        list-style: none;
+        
+        cursor: pointer;
+    }
+    .contactinfo ul li .icon{
+        display: inline-block;
+        width: 30px;
+        font-size: 18px;
+        color: #003147;
+    }
+    .contactinfo ul li .span{
+        color: #fff;
+        font-weight: 300px;
+    }
+    .contactinfo education li{
+        margin-bottom: 15px;
+    }
+    .contactinfo.education h5{
+        color: #2a2829;
+        font-weight: 500px;
+    }
+    .add-on h5{
+        color: #2a2829;
+        font-weight: 500px;
+    }
+}
